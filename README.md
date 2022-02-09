@@ -22,7 +22,7 @@ Please feel free to create issues, or fork and pull request - this project shoul
 - firebase
 - SQLite
 
-### Last Release:
+### Last release:
 - 30/04/2018 : v5.9
 - versionCode 59
 - versionName "5.9"
@@ -34,6 +34,6 @@ Please feel free to create issues, or fork and pull request - this project shoul
   <img height="400" src="https://image.winudf.com/v2/image1/Y29tLm15bmFzbWFoLm15a2FtdXNfc2NyZWVuXzJfMTU1MTU2Nzc4Ml8wMTQ/screen-2.jpg?fakeurl=1&type=.jpg">
 </p>
 
-## Link on Play Google
+## Link on Google Play
 https://play.google.com/store/apps/details?id=com.mynasmah.mykamus
 
