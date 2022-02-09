@@ -12,7 +12,9 @@
 </p>
 
 ## MyKamus Android-Dictionary-App
-Actually I had made a dictionary in my "Data Structures & Algorithms" course in Java using Hash Maps (complexity: O(1)). So, when I was learning Android I decided to make a dicitonary in Android too using the same java code logic. I have made this app in android studio. It contains almost 80000+ words of english, arabic and malay. Initially it takes 8 seconds appoximately in loading then after loading it searches the word instantly having Time Complexity O(1). I am determined to work on it more to reduce the loading time. Features: Save favourite words. Works online as well as offline. 
+Actually I had made a dictionary in my "Data Structures & Algorithms" course in Java using Hash Maps (complexity: O(1)). So, when I was learning Android I decided to make a dicitonary in Android too using the same java code logic. I have made this app in android studio. It contains almost 80000+ words of english, arabic and malay. Initially it takes 8 seconds appoximately in loading then after loading it searches the word instantly having Time Complexity O(1). I am determined to work on it more to reduce the loading time. 
+
+Features: Save favourite words. Works online as well as offline. 
 
 Please feel free to create issues, or fork and pull request - this project should receive much more love than I can give it.
 
