@@ -18,6 +18,7 @@ Please feel free to create issues, or fork and pull request - this project shoul
 
 ### Using:
 - Kotlin
+- Java
 - MVVM
 - firebase
 - SQLite
