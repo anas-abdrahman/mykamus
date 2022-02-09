@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/fragmentMain">
+
+    <fragment
+        android:id="@+id/fragmentMain"
+        android:name="com.mynasmah.mykamus.ui.view.home.FragmentHome"
+        android:label="fragment_kamus"
+        tools:layout="@layout/fragment_kamus" >
+        <action
+            android:id="@+id/to_activityBookmarks"
+            app:destination="@id/activityBookmarks" />
+        <action
+            android:id="@+id/to_activityHistory"
+            app:destination="@id/activityHistory"   />
+        <action
+            android:id="@+id/to_activityDictionary"
+            app:destination="@id/activityDetails"   />
+    </fragment>
+
+    <activity
+        android:id="@+id/activityBookmarks"
+        android:name="com.mynasmah.mykamus.ui.view.activity.ActivityBookmarks"
+        android:label="fragment_bookmark"
+        tools:layout="@layout/activity_bookmark" />
+    <activity
+        android:id="@+id/activityHistory"
+        android:name="com.mynasmah.mykamus.ui.view.activity.ActivityHistory"
+        android:label="activity_history"
+        tools:layout="@layout/activity_history" />
+    <activity
+        android:id="@+id/activityDetails"
+        android:name="com.mynasmah.mykamus.ui.view.activity.ActivityDetails"
+        android:label="activity_details"
+        tools:layout="@layout/activity_details" />
+
+</navigation>

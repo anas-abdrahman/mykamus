@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.view.activity.ActivityHistory"
+    android:background="@color/color_blue_1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_blue_7">
+
+            <TextView
+                android:id="@+id/txt_title_history"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="History"
+                android:drawableStart="@drawable/ic_dot"
+                android:drawablePadding="10dp"
+                android:textColor="@color/colorWhiteOver"
+                android:padding="15dp"/>
+
+            <TextView
+                android:id="@+id/txt_remove_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:drawableRight="@drawable/ic_delete"
+                android:drawablePadding="5dp"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="Remove All"
+                android:textColor="@color/colorWhiteOver" />
+
+        </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/color_blue_2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="50dp"
+        android:id="@+id/no_history"
+        android:visibility="visible">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_history_big"
+            android:layout_gravity="center"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:layout_marginTop="15dp"
+            android:text="History"
+            android:textStyle="bold"
+            android:textColor="@color/color_dark_3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="Your search history is empty."
+            android:textColor="@color/color_dark_3" />
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_history"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:background="@color/color_blue_1"
+        android:divider="@null"
+        android:layout_weight="1"/>
+
+    <com.google.android.gms.ads.AdView
+        android:layout_marginTop="5dp"
+        android:id="@+id/adView_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adUnitId="@string/app_ads_history"
+        ads:adSize="SMART_BANNER">
+    </com.google.android.gms.ads.AdView>
+
+
+</LinearLayout>

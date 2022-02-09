@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.view.activity.ActivityBookmarks"
+    android:background="@color/color_blue_1">
+
+    <TextView
+        android:id="@+id/txt_fav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bookmarks"
+        android:drawableStart="@drawable/ic_dot"
+        android:drawablePadding="10dp"
+        android:background="@color/color_blue_7"
+        android:textColor="@color/color_blue_2"
+        android:gravity="left"
+        android:padding="15dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/color_blue_2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:id="@+id/no_bookmarks"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_bookmark_big"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="30sp"
+            android:text="@string/bookmarks"
+            android:textStyle="bold"
+            android:textColor="@color/color_dark_3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:gravity="center"
+            android:text="Tap on the star to bookmark a dictionary"
+            android:textColor="@color/color_dark_3" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_fav"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="visible"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:background="@color/color_blue_1"
+        android:layout_weight="1"/>
+
+    <com.google.android.gms.ads.AdView
+        android:layout_marginTop="5dp"
+        android:id="@+id/adView_bookmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adUnitId="@string/app_ads_bookmark"
+        ads:adSize="SMART_BANNER">
+    </com.google.android.gms.ads.AdView>
+
+
+</LinearLayout>

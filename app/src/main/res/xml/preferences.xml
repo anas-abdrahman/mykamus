@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference />
+
+    <SwitchPreference
+        android:title="Search Suggestion"
+        android:icon="@drawable/ic_check_suggestion"
+        android:key="saraf_enable"
+        android:defaultValue="true"
+        android:summary="Auto Suggestion Word" />
+
+    <ListPreference
+        android:dialogTitle="Select size"
+        android:entries="@array/pref_font_size_title"
+        android:entryValues="@array/pref_font_size_value"
+        android:summary="Font size for screen"
+        android:icon="@drawable/ic_text"
+        android:defaultValue="14"
+        android:key="font_size"
+        android:title="Font Size" />
+
+    <Preference
+        android:icon="@drawable/logo"
+        android:summary="Last update 01/03/2019"
+        android:title="@string/app_version"
+        />
+
+</PreferenceScreen>

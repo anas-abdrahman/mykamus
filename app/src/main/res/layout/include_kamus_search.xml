@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.mynasmah.mykamus.utils.searchView.FloatingSearchView
+        android:id="@+id/et_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:floatingSearch_dimBackground="false"
+        app:floatingSearch_dismissOnOutsideTouch="true"
+        app:floatingSearch_close_search_on_keyboard_dismiss="true"
+        app:floatingSearch_leftActionMode="showHamburger"
+        app:floatingSearch_menu="@menu/main_menu"
+        app:floatingSearch_searchHint="@string/label_ar"
+        app:floatingSearch_hintTextColor="@color/colorGreyDark"
+        app:floatingSearch_showSearchKey="true"
+        app:floatingSearch_suggestionsListAnimDuration="500" />
+
+<!--
+
+        <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="@color/color_blue_7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <AutoCompleteTextView
+        android:id="@+id/et_search"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="@dimen/spacing_8_end"
+        android:layout_marginStart="@dimen/spacing_8_start"
+        android:layout_marginTop="@dimen/spacing_8_top"
+        android:layout_weight="17"
+        android:background="@drawable/radius_et_cari"
+        android:dropDownVerticalOffset="-4dp"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        android:focusable="@null"
+        android:gravity="center"
+        android:hint="أدخل الكلمة للبحث"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:maxLines="1"
+        android:popupBackground="@color/colorWhiteOver"
+        android:popupElevation="1dp"
+        android:dropDownHeight="200dp"
+        android:textColor="@color/color_blue_7"
+        android:textColorHint="@color/colorGreyDark"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+
+    <ImageButton
+        android:id="@+id/btn_menu"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/spacing_8_bottom"
+        android:layout_marginStart="@dimen/spacing_8_start"
+        android:layout_marginTop="@dimen/spacing_8_top"
+        android:layout_weight="1"
+        android:background="@color/colorWhiteOver"
+        android:scaleType="fitCenter"
+        android:src="@drawable/icon_menu"
+        app:layout_constraintBottom_toBottomOf="@+id/et_search"
+        app:layout_constraintStart_toStartOf="@+id/et_search"
+        app:layout_constraintTop_toTopOf="@+id/et_search"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/btn_mic"
+        android:layout_width="24dp"
+        android:layout_height="32dp"
+        android:layout_gravity="left"
+        android:layout_marginBottom="@dimen/spacing_8_bottom"
+        android:layout_marginTop="@dimen/spacing_8_top"
+        android:layout_weight="1"
+        android:background="@color/colorWhiteOver"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/icon_mic"
+        app:layout_constraintBottom_toBottomOf="@+id/et_search"
+        app:layout_constraintStart_toEndOf="@+id/btn_menu"
+        app:layout_constraintTop_toTopOf="@+id/et_search"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/btn_suggest"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="start"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="@dimen/spacing_8_top"
+        android:layout_weight="1"
+        android:background="@color/colorWhiteOver"
+        android:paddingStart="9dp"
+        android:paddingEnd="3dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_info_dark"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_mic"
+        app:layout_constraintTop_toTopOf="@+id/et_search"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="RtlSymmetry" />
+
+    <ImageButton
+        android:id="@+id/btn_clear"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="left"
+        android:layout_marginBottom="@dimen/spacing_8_bottom"
+        android:layout_marginTop="@dimen/spacing_8_top"
+        android:background="@color/colorWhiteOver"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_close"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/et_search"
+        app:layout_constraintEnd_toStartOf="@+id/btn_search"
+        app:layout_constraintTop_toTopOf="@+id/et_search" />
+
+    <ImageButton
+        android:id="@+id/btn_search"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="left"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:background="@color/colorWhiteOver"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_search"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/et_search"
+        app:layout_constraintEnd_toEndOf="@+id/et_search"
+        app:layout_constraintTop_toTopOf="@+id/et_search" />
+
+-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

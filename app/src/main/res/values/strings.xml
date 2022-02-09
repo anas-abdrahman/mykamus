@@ -1,0 +1,77 @@
+<resources>
+
+    // App Init
+    <string name="app_name">mykamus</string>
+    <string name="app_version">mykamus v6.0</string>
+    <string name="app_password">mynasmah_99642</string>
+    <string name="app_controller">3c8b243753388978513f</string>
+
+    <string name="app_ads_home">ca-app-pub-4843117985594278/6933829771</string>
+    <string name="app_ads_details">ca-app-pub-4843117985594278/8956346126</string>
+    <string name="app_ads_bookmark">ca-app-pub-4843117985594278/6536042828</string>
+    <string name="app_ads_history">ca-app-pub-4843117985594278/3335164419</string>
+
+    // Stirng - Text
+    <string name="sedang_cari">Searching…</string>
+
+    <string name="bahasa_arab">اللغة العربية</string>
+    <string name="bahasa_melayu">Bahasa Melayu</string>
+    <string name="bahasa_english">English Language</string>
+
+    <string name="label_ar">أدخل الكلمة للبحث</string>
+    <string name="label_my">Masukkan perkataan</string>
+    <string name="label_eg">Insert Word to search</string>
+
+    // For Activity
+    <string name="title_activity_favorite">activity_favorite</string>
+    <string name="title_activity_test_drawer">testDrawer</string>
+    <string name="title_activity_billing">BillingActivity</string>
+    <string name="title_activity_intro">IntroActivity</string>
+
+    // For Navigation drawer and Menu
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    // For Donation mykamus
+    <string name="derma3">com.mynasmah.mykamus.donate3</string>
+    <string name="derma5">com.mynasmah.mykamus.donate5</string>
+    <string name="derma10">com.mynasmah.mykamus.donate10</string>
+    <string name="license">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArxSpmMhFVNL7LC9698ZUfW+xiE+2F7KxGBUvISvSy1F0qc3xTxRAAFdz9ohI/Y8m/BOYQJHUyfQ0P4TSjTI2atHFTzDjFvPw8YMSC5zjthQzpAR2XGr9p3iRl3SgMN6HF9slbe9I5T07OjvKuoaXZSHuCq4TcR1WcVT+81acdvDky/iteq5jte5/d33VqU0DR0AHdnFbnuOIqZ0G6MXxJTd7EjKYRQQi3ZU83aLj8ATgxpIAtmkIL70KyEGkoIavhWL6AsTHOZTihlx8rdpMeh9Nf2E9uZHac6qzVI8PAsAkQBZNEUHmHRF80HbIvVTt4SIMLkDtTRCgBhOu5mxhKQIDAQAB</string>
+
+    // String
+    <string name="arab">اللغة العربية</string>
+    <string name="melayu">Melayu</string>
+    <string name="english">English</string>
+
+    <string name="more">More</string>
+    <string name="titik_dua">:</string>
+    <string name="todo">TODO</string>
+    <string name="searching">Searching…</string>
+    <string name="loading">Loading…</string>
+    <string name="history">History</string>
+    <string name="did_you_mean"> Did you mean :</string>
+    <string name="text_empty">---</string>
+
+    // menu drawer
+    <string name="bookmarks">Bookmarks</string>
+    <string name="mykamus_web">myKamus Web</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+
+    // Strings related to Settings
+    <string-array name="pref_font_size_title">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Huge</item>
+    </string-array>
+    <string-array name="pref_font_size_value">
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+    </string-array>
+
+</resources>

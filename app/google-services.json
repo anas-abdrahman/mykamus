@@ -1,0 +1,72 @@
+{
+  "project_info": {
+    "project_number": "426880171227",
+    "firebase_url": "https://mykamus-18f89.firebaseio.com",
+    "project_id": "mykamus-18f89",
+    "storage_bucket": "mykamus-18f89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426880171227:android:b3c7d993b0436989",
+        "android_client_info": {
+          "package_name": "com.mynasmah.mykamus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426880171227-fmoma6q1ipen6leaprq6a9vkpign9mqi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mynasmah.mykamus",
+            "certificate_hash": "572b9ffb9bcd16b10f94f4a780be093f1a243771"
+          }
+        },
+        {
+          "client_id": "426880171227-5i06ph6gs4ai9v72kf82lh7po2abdted.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mynasmah.mykamus",
+            "certificate_hash": "e8cd0435d6a506462b7c259d93185f10374df861"
+          }
+        },
+        {
+          "client_id": "426880171227-45noc1gqjg51tg0h8n2sjtd8mj51egvc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mynasmah.mykamus",
+            "certificate_hash": "3b2a4836f9387c7402ca46f01f956dd735b13021"
+          }
+        },
+        {
+          "client_id": "426880171227-3setkn2cbbk7sh9nmli5k6agmdnjnhbt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7hkqQ5e_EXc44UIoU2qtXSNIq6IX1Z4o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426880171227-3setkn2cbbk7sh9nmli5k6agmdnjnhbt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-4843117985594278~1476380545"
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/radius_content_white"
+        android:padding="@dimen/spacing_8_all">
+
+        <TextView
+            android:id="@+id/txt_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingEnd="@dimen/spacing_8_end"
+            android:paddingStart="@dimen/spacing_8_start"
+            android:paddingTop="@dimen/spacing_8_top"
+            android:gravity="end">
+
+            <TextView
+                android:id="@+id/txt_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="--"
+                android:textColor="@color/color_dark_3" />
+
+            <TextView
+                android:id="@+id/txt_titik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_dark_3"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:textStyle="bold"
+                android:text="@string/titik_dua"/>
+
+            <TextView
+                android:id="@+id/txt_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/arab"
+                android:textSize="15sp"
+                android:textColor="@color/color_dark_2"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Bahasa Melayu"
+            android:padding="2dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="10sp"
+            android:drawableStart="@drawable/ic_chevron_right"/>
+
+        <TextView
+            android:id="@+id/txt_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:gravity="start"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/melayu"
+            android:textColor="@color/color_blue_6"/>
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" English Language"
+            android:padding="2dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="10sp"
+            android:drawableStart="@drawable/ic_chevron_right"/>
+
+        <TextView
+            android:id="@+id/txt_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:gravity="start"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/english"
+            android:textColor="@color/color_blue_6"/>
+
+        <View
+            android:layout_margin="@dimen/spacing_8_all"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_margin="@dimen/spacing_8_all"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorWhite" />
+
+        <LinearLayout
+            android:id="@+id/layout_event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:gravity="left"
+            android:weightSum="3">
+
+            <com.sackcentury.shinebuttonlib.ShineButton
+                android:id="@+id/btn_fav"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                app:allow_random_color="true"
+                app:btn_color="@color/colorGreyDark"
+                android:layout_marginEnd="@dimen/spacing_8_end"
+                android:layout_marginStart="@dimen/spacing_8_end"
+                app:btn_fill_color="@android:color/holo_orange_light"
+                app:siShape="@raw/star" />
+
+            <com.sackcentury.shinebuttonlib.ShineButton
+                android:id="@+id/btn_share"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="@dimen/spacing_8_start"
+                app:allow_random_color="true"
+                app:btn_color="@color/colorGreyDark"
+                app:btn_fill_color="@android:color/holo_blue_light"
+                app:siShape="@drawable/ic_share" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Details"
+                android:drawableRight="@drawable/ic_arrow_right"
+                android:textColor="@color/colorAccent"
+                android:padding="3dp"
+                android:gravity="end"
+                android:textSize="11sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

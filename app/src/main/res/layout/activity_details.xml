@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_blue_1"
+    tools:context=".ui.view.activity.ActivityDetails"
+    android:id="@+id/layout_arab">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_blue_7">
+
+        <TextView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:drawableStart="@drawable/ic_chevron_left"
+            android:padding="15dp"
+            android:textColor="@color/colorWhiteOver"
+            android:drawablePadding="3dp"
+            android:text="Back" />
+
+        <ImageButton
+            android:id="@+id/iv_font_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:src="@drawable/font_up"
+            android:textColor="@color/colorWhiteOver"
+            android:layout_marginEnd="15dp"
+            android:layout_alignParentEnd="true" />
+
+        <ImageButton
+            android:id="@+id/iv_font_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:src="@drawable/font_down"
+            android:textColor="@color/colorWhiteOver"
+            android:layout_toStartOf="@id/iv_font_up" />
+
+        <TextView
+            android:id="@+id/txt_font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorWhiteOver"
+            android:layout_toStartOf="@id/iv_font_down"
+            android:textSize="12sp"
+            android:text="Font Size : "/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="15dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius_content_white"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/erti_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="15dp"
+                android:paddingTop="15dp"
+                android:text="عربي"
+                android:textColor="#e53935"
+                android:drawableStart="@drawable/ic_copy"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/erti_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="start"
+                android:maxLines="2"
+                android:paddingBottom="5dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="20dp"
+                android:text="عربي"
+                android:drawableStart="@drawable/ic_copy"
+                android:textColor="@color/color_dark_4"
+                android:textSize="14sp"/>
+
+            <View
+                android:layout_margin="@dimen/spacing_8_all"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/label_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Bahasa Melayu"
+                android:padding="2dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="10sp"
+                android:drawableStart="@drawable/ic_chevron_right"/>
+
+            <TextView
+                android:id="@+id/erti_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:ellipsize="end"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp"
+                android:text="@string/bahasa_melayu"
+                android:textSize="14sp"
+                android:drawableEnd="@drawable/ic_copy"
+                android:textColor="@color/color_dark_4" />
+
+            <View
+                android:layout_margin="@dimen/spacing_8_all"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/label_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" English Language"
+                android:padding="2dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="10sp"
+                android:drawableStart="@drawable/ic_chevron_right"/>
+
+            <TextView
+                android:id="@+id/erti_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:ellipsize="end"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp"
+                android:text="@string/bahasa_english"
+                android:textSize="14sp"
+                android:drawableEnd="@drawable/ic_copy"
+                android:textColor="@color/color_dark_4"
+                android:drawableRight="@drawable/ic_copy" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/radius_white"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <com.sackcentury.shinebuttonlib.ShineButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@android:color/darker_gray"
+                    android:id="@+id/btn_fav"
+                    app:btn_color="@android:color/darker_gray"
+                    app:btn_fill_color="@android:color/holo_orange_light"
+                    app:allow_random_color="true"
+                    app:enable_flashing="true"
+                    app:big_shine_color="@android:color/holo_orange_light"
+                    app:click_animation_duration="200"
+                    app:shine_animation_duration="1500"
+                    app:shine_turn_angle="10"
+                    app:small_shine_offset_angle="20"
+                    app:shine_distance_multiple="1.5"
+                    app:small_shine_color="#CC9999"
+                    app:shine_count="8"
+                    android:layout_marginEnd="10dp"
+                    app:siShape="@raw/star"/>
+
+                <com.sackcentury.shinebuttonlib.ShineButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@android:color/darker_gray"
+                    android:id="@+id/btn_share"
+                    app:btn_color="@android:color/darker_gray"
+                    app:btn_fill_color="@color/colorBlue"
+                    app:allow_random_color="false"
+                    app:enable_flashing="false"
+                    app:big_shine_color="@color/colorBlue"
+                    app:click_animation_duration="200"
+                    app:shine_animation_duration="1500"
+                    app:shine_turn_angle="10"
+                    app:small_shine_offset_angle="20"
+                    app:shine_distance_multiple="1.5"
+                    app:small_shine_color="#99a8cc"
+                    app:shine_count="8"
+                    android:layout_marginStart="10dp"
+                    ads:siShape="@drawable/ic_share" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/app_ads_details">
+
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>
