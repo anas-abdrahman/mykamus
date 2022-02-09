@@ -5,12 +5,6 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="https://play.google.com/store/apps/details?id=com.mynasmah.mykamus" target="_blank" rel="mykamus">
-    <img src="https://lh3.googleusercontent.com/cjsqrWQKJQp9RFO7-hJ9AfpKzbUb_Y84vXfjlP0iRHBvladwAfXih984olktDhPnFqyZ0nu9A5jvFwOEQPXzv7hr3ce3QVsLN8kQ2Ao=s0">
-  </a>
-</p>
-
 ## MyKamus Android-Dictionary-App
 Actually I had made a dictionary in my "Data Structures & Algorithms" course in Java using Hash Maps (complexity: O(1)). So, when I was learning Android I decided to make a dicitonary in Android too using the same java code logic. I have made this app in android studio. It contains almost 80000+ words of english, arabic and malay. Initially it takes 8 seconds appoximately in loading then after loading it searches the word instantly having Time Complexity O(1). I am determined to work on it more to reduce the loading time. 
 
@@ -38,5 +32,10 @@ Please feel free to create issues, or fork and pull request - this project shoul
 </p>
 
 ## Link on Google Play
+<p>
+  <a href="https://play.google.com/store/apps/details?id=com.mynasmah.mykamus" target="_blank" rel="mykamus">
+    <img src="https://lh3.googleusercontent.com/cjsqrWQKJQp9RFO7-hJ9AfpKzbUb_Y84vXfjlP0iRHBvladwAfXih984olktDhPnFqyZ0nu9A5jvFwOEQPXzv7hr3ce3QVsLN8kQ2Ao=s0">
+  </a>
+</p>
 https://play.google.com/store/apps/details?id=com.mynasmah.mykamus
 
