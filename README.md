@@ -1,5 +1,5 @@
 
-<p align="center">
+<p>
   <a href="https://play.google.com/store/apps/details?id=com.mynasmah.mykamus" target="_blank" rel="mykamus">
     <img width="100" src="https://play-lh.googleusercontent.com/c7pvl5QZhrCN1pyom0KC4aYVL_4ue3AkqbeYIvjnQCmhk8y0EqgdnNyVLebquQj5VA" alt="mykamus logo">
   </a>
